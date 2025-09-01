@@ -4,5 +4,5 @@
 temp_fahrenheit = float(input("Informe a temperatura em Graus Celsius: "))
 conversao_celsius= (temp_fahrenheit - 32) * 5 / 9
 
-print(f"Graus em Fahrenheit: {temp_fahrenheit} °F")
-print(f"Graus em Celsius: {conversao_celsius} °C")
+print(f"Graus em Fahrenheit: {temp_fahrenheit:.2f} °F")
+print(f"Graus em Celsius: {conversao_celsius:.2f} °C")
