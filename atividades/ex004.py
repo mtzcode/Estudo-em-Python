@@ -1,6 +1,6 @@
-#Leia um numero real e imprima o resultado do quadrado desse número.
+# Leia um número real e imprima o resultado do quadrado desse número.
 
 num = float(input("Digite um número real (com casas decimais): "))
-result_quadrado = num * num
+resultado_quadrado = num ** 2  # mais comum usar ** para potência
 
-print(f"o resultado de {num} elevado ao quadrado é: {result_quadrado:.2f}")
+print(f"O resultado de {num} elevado ao quadrado é: {resultado_quadrado:.2f}")

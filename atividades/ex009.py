@@ -1,7 +1,8 @@
-#Leia uma velocidade em km/h (quilometros por hora) e apresente-a convertida em m/s (metros por segundo). A formula de conversão é: M = K/3.6, sendo K a velocidade em km/h e M em m/s
+# Leia uma velocidade em km/h e apresente-a em m/s.
+# Fórmula: M = K / 3.6
 
-velocidade = float(input("Informe velocidade em km/h:" ))
-metros_segundos = velocidade / 3.6
+velocidade_kmh = float(input("Informe a velocidade em km/h: "))
+velocidade_ms = velocidade_kmh / 3.6
 
-print(f"Velocidade:{velocidade:.2f}")
-print(f"Conversão em metros por segundo:{metros_segundos:.2f}")
+print(f"Velocidade: {velocidade_kmh:.2f} km/h")
+print(f"Conversão: {velocidade_ms:.2f} m/s")
